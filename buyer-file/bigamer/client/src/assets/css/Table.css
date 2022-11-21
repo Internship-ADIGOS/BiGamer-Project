@@ -1,0 +1,86 @@
+.main{
+    width: 80%;
+    margin: auto;
+}
+
+.blue{
+    background-color: rgb(12, 148, 238);
+    text-align: center;
+}
+
+.record-container{
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #454545;
+}
+
+.record-container .types{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0px 8px;
+}
+
+.record-container .types .types-item{
+    display: flex;
+    padding: 2px 12px;
+}
+
+.record-container .types .types-item .van-image{
+    padding: 5px 12px;
+    width: 3rem;
+    height: 2rem;
+}
+
+.record-container .types .types-item .types-item-info{
+    margin-top: 7px;
+
+}
+
+.record-container .types .types-item .types-item-info .data{
+    text-align: center;
+    font-size: small;
+    font-weight: 600;
+}
+
+.record-container .record-table{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+}
+
+.record-container .record-table .col{
+    display: flex;
+    flex-direction: column;
+    border-right: 1px dotted #000;
+        /* border-top: 1px solid #000;
+        border-bottom: 1px solid #000; */
+    padding: 28px;
+}
+
+.record-container .record-table .row{
+    display: flex;
+    flex-direction: column;
+}
+
+.record-container .record-table .row span{
+    border: 1px solid black; 
+    border-radius: 100%;
+    padding: 0.2rem;
+    margin: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

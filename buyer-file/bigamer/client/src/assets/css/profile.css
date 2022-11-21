@@ -1,0 +1,124 @@
+.thirdsection {
+    background-image: -webkit-radial-gradient(50% 50%, circle closest-side, #fff 100%, #ffd46c 340%);
+}
+
+.fourthsection {
+    background-image: -webkit-radial-gradient(50% 50%, circle closest-side, #fff 100%, #faa57e 340%);
+}
+i {
+    margin-right: 1rem;
+  }
+
+@media(max-width:998px) {
+    .pcontainer {
+        width: 62rem;
+        height: 124rem !important;
+    }
+
+    .pbox {
+        font-size: 3rem !important;
+        height: 124rem !important;
+    }
+    
+    
+    .firstsection {
+        margin-left: 0rem !important;
+        margin-top: 8rem;
+        
+    }
+    
+    .firstsection img{
+        height: 12rem !important;
+        width: 12rem !important;
+        margin-top: 2rem;
+        margin-bottom: 5rem;
+        
+    }
+    .info {
+        margin-top: 1rem;
+        font-size: 3.2rem !important;
+        margin-left: 2rem;
+    }
+    
+    .secondsection {
+        margin-top: 6rem  !important;
+        height: 10rem !important;
+    }
+    .coins{
+        width: 20% !important;
+    }
+    .diamond {
+        width: 24% !important;
+    }
+
+    .downline {
+        width: 25% !important;
+    }
+
+    .list{
+        height: 7rem !important;
+        margin-top: 2rem;
+    }
+    .fourthsection{
+        margin-bottom: 4rem!important;
+    }
+   
+}
+
+@media(max-width:768px) {
+    
+    .pcontainer {
+        width: 62rem;
+        height: 124rem !important;
+    }
+
+    .pbox {
+        font-size: 3rem !important;
+        height: 124rem !important;
+        /* border: 2px solid red; */
+    }
+    
+    
+    .firstsection {
+        margin-left: 0rem !important;
+        margin-top: 8rem;
+        
+    }
+    
+    .firstsection img{
+        height: 12rem !important;
+        width: 12rem !important;
+        margin-top: 2rem;
+        margin-bottom: 5rem;
+        
+    }
+    .info {
+        margin-top: 1rem;
+        font-size: 3.2rem !important;
+        margin-left: 2rem;
+    }
+    
+    .secondsection {
+        margin-top: 6rem  !important;
+        height: 10rem !important;
+    }
+    .coins{
+        width: 20% !important;
+    }
+    .diamond {
+        width: 24% !important;
+    }
+
+    .downline {
+        width: 25% !important;
+    }
+
+    .list{
+        height: 7rem !important;
+        margin-top: 2rem;
+    }
+    .fourthsection{
+        margin-bottom: 4rem!important;
+    }
+   
+}
